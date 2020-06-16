@@ -26,7 +26,7 @@ with:
 version: 12
 
 -name: gith for yarn
-        uses: Borales/actions-yarn@v2.1.0
+uses: Bolares/actions-yarn@2.1.0
           with:
             # Yarn command
             cmd: install
