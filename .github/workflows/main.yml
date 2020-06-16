@@ -25,12 +25,12 @@ jobs:
 with:
 version: 12
 
-   - name: gith for yarn
+- name: gith for yarn
    uses: Bolares/actions_yarn@2.1.0
  
 with:
            # Yarn command
-     cmd: install
+ cmd: install
    
     - name: Creating
         run: yarn build
