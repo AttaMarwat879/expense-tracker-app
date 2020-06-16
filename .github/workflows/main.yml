@@ -32,8 +32,8 @@ with:
            # Yarn command
        cmd: install
             
-          - name: creating build
-           uses: yarn build
+- name: creating build
+ uses: yarn build
            
           -name: installing surge
            uses: npm install -g surge
