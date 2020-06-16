@@ -35,7 +35,7 @@ with:
    uses: yarn build
            
       - name: installing surge
-       uses: npm install -g surge
+uses: npm install -g surge
            
        - name: deploying on surge
             uses:surge ./build http://expensetracker-by-atta.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
