@@ -28,7 +28,8 @@ jobs:
     -uses: borales/actions-yarn@v2.0.0
     with: 
        cam: install
-         - name: yarns builds 
+        - name: Build React App
+          
          uses: yarn build
      - name: Installing Surge
      run: npm install --global surge
