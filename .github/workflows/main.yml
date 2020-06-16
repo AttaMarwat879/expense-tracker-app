@@ -32,7 +32,7 @@ with:
            # Yarn command
    cmd: install
    
-   - name: Creating build
+    - name: Creating build
     run: yarn build
            
        - name: installing surge
