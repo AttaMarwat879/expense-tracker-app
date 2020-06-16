@@ -31,7 +31,6 @@ uses: Bolares/actions_yarn@2.1.0
 with:
            # Yarn command
        cmd: install
-            
      - name: creating build
        uses: yarn build
            
