@@ -30,7 +30,7 @@ version: 12
  
 with:
            # Yarn command
-   cmd: install
+     cmd: install
    
     - name: Creating
         run: yarn build
