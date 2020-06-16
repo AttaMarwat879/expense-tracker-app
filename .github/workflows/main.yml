@@ -28,11 +28,11 @@ version: 12
 -name: gith for yarn
 uses: Bolares/actions_yarn@2.1.0
             
-with:
+  with:
            # Yarn command
        cmd: install
             
-          -name: creating build
+          - name: creating build
            uses: yarn build
            
           -name: installing surge
