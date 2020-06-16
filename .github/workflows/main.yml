@@ -31,7 +31,7 @@ uses: Bolares/actions_yarn@2.1.0
 with:
            # Yarn command
    cmd: install
-  - name: creating build
+   - name: creating build
        uses: yarn build
            
       - name: installing surge
